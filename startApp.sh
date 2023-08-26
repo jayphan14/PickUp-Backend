@@ -1,0 +1,1 @@
+docker build -t pickup-backend . && docker-compose up
