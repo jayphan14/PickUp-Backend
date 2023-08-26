@@ -2,7 +2,7 @@
     "compilerOptions": {
         "module": "NodeNext",
         "moduleResolution": "node",
-        "baseUrl": "src",
+        "baseUrl": "PickUp-Backend",
         "outDir": "dist",
         "sourceMap": true,
         "noImplicitAny": true,

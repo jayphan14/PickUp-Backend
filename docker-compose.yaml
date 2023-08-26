@@ -1,0 +1,16 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user123
+      POSTGRES_DB: pickup
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+  app:
+    image: pickup-backend
+    ports:
+      - "13000:3000"
+volumes:
+  postgres-data:
