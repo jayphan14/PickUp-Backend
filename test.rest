@@ -1,4 +1,9 @@
 ###
-GET http://localhost:8080
+POST  http://localhost:13000/auth/register/local
+Content-Type: application/json
 
+{
+  "email": "your-email@example.com",
+  "password": "your-password"
+}
 ###
